@@ -10,7 +10,7 @@ Para este projeto, a linguagem escolhida para o desenvolvimento da ferramenta fo
 
 A seguir estão descritos os principais passos para o funcionamento da ferramenta:
 
-### 📖 Leitura do Arquivo `.aut` (JSON)
+### Leitura do Arquivo `.aut` (JSON)
 
 O arquivo `.aut` possui formato **JSON** e define:
 
