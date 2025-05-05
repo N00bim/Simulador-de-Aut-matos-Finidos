@@ -1,4 +1,4 @@
-# 🚩 Objetivo da ferramenta
+# Objetivo da ferramenta
 O projeto tem como objetivo desenvolver uma ferramenta capaz de **simular autômatos finitos**, utilizando um arquivo `.aut` que representa o **diagrama de transições do autômato**. A ferramenta testa o funcionamento do autômato com base em um arquivo de entrada no formato **CSV**, e gera um **arquivo de saída** também em formato CSV, contendo os resultados das simulações.
 
 O programa é projetado para ser **totalmente operável via linha de comando**.
@@ -6,7 +6,7 @@ O programa é projetado para ser **totalmente operável via linha de comando**.
 Para este projeto, a linguagem escolhida para o desenvolvimento da ferramenta foi o **C++**.
 
 ---
-## ⚙️ Funcionamento da Ferramenta
+## Funcionamento da Ferramenta
 
 A seguir estão descritos os principais passos para o funcionamento da ferramenta:
 
@@ -48,7 +48,7 @@ using json = nlohmann::json;
  };
 ```
 ---
-### 🔍 Identificação do Tipo de Autômato Finito
+### Identificação do Tipo de Autômato Finito
 
 Inicialmente, devemos identificar o tipo de Autômato Finito:
 
@@ -88,7 +88,7 @@ for (auto& it : transicaoMap) {
 3. **Caso não se enquadre nas condições acima → AFD**
 
 ---
-### 📂 Entrada e Saída (CSV)
+### Entrada e Saída (CSV)
 
 A ferramenta utiliza as bibliotecas padrão `fstream` do **C++** para os arquivos de entrada e saída. O processo é realizado da seguinte forma:
 
@@ -104,7 +104,7 @@ palavra;resultado_esperado
 palavra;resultado_esperado;resultado_obtido;tempo_de_execucao_em_nanosegundos
 ```
 ---
-### 🛠️ Compilação e Execução
+### Compilação e Execução
 
 ```bash
 g++ -o ferramenta.exe nome_do_codigo.c++
